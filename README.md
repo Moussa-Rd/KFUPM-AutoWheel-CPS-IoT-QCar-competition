@@ -44,20 +44,15 @@ This repository combines **intelligent object detection**, **dynamic vehicle con
 
 ---
 
-### 🔍 Perception Layer
-- **For Image processing **, we've done the following:
-  - 
-    
-
----
-
 ## 🧠 Development Process
 
 ### 1. Object Detection
 - I
 
 ### 2. Control System
-- 
+- We have 2 main controllers, the first one 'Stearing_Commander.' It uses a PD controller and corrects the steering command, that weill be later used for the speed controller. Secondly, 'Speed_Controller', which is a PID controller. The parameters were tuned to get the best possible performance for the virtual stage.
+- The output of 'Speed_Controller' will be used in a MATLAB function named **taxiMissionThrottleGate**  along with the TaxiHub, Pickup, and DropOff coordinates to handle the PickUp/DropOff scenario.
+- The flags obtained from the image processing module were also used in the logic of the Trafficlight/Stop Logic.
 
 ---
 
@@ -79,24 +74,11 @@ KFUPMAutoDrive-Simulation/
 ## 🛠️ How to Run
  
 1. **Start QLabs**
-     Make sure QLabs is open, and all previous real-time models are terminated.
-2.**you**
-     
-3.**Launch experiment**
-  - First run Setup_Real_Senario.m
-  - Then run A* planner to generate the full path, starting from fixing the starting node (TaxiHub) to predefined pickup and dropoff points 
+
+  - Make sure QLabs is open, and all previous real-time models are terminated.
+   
+2.**Launch experiment**
+  - First run example_sdcs_path.m by specifying the pickup node and dropoff node, this will return the full path saved in a .mat file format.
   - Running Setup_Qcar2_Params.m to upload the different parameters needed for the navigation blocks, including the generated path from example_sdcs_path.m
+  - After that,  run Setup_Real_Senario.m
   - Finally running the main file VIRTUAL_self_driving stack_V2.slx 
-
-
----
-
-## 🗂️ File Descriptions
----
-
-| File                                    | Description                                                                                                                                                                                                                                                                                                        |
-|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `VIRTUAL_self_driving stack_V2.slx`     |         |
-| `example_sdcs_path.m`                   |  |
-| 'Setup_Qcar2_Params.m '                 ||
-|'Setup_Real_Senario.m'                   ||
