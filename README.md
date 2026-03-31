@@ -82,6 +82,8 @@ Overall, this project demonstrates a simple and effective computer vision pipeli
 
 This makes it suitable for learning and experimenting with **real-time vision-based traffic scene analysis** in MATLAB/Simulink.
 
+---
+
 ### 2. Control System
 
 The control system is composed of two main controllers responsible for vehicle motion: **Steering_Commander** and **Speed_Controller**.
