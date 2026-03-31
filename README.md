@@ -1,6 +1,6 @@
 # KFUPM-AutoWheel-CPS-IoT-QCar-competition
 
-# [Youtube link for our Competition Submission – Stage 1](https://youtu.be/H7bgU0j2-UE)
+# [Youtube link for our Competition Submission – Stage 1]()
 
 ![Simulation Snapshot](https://github.com/Moussa-Rd/KFUPM_AutoWheels-Stage-1/blob/b0e6da5982b8cf6432e9b7472f07b0c60544912b/KFUPM-AutoWheels.png)
 
