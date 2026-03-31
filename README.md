@@ -80,8 +80,9 @@ KFUPMAutoDrive-Simulation/
  
 1. **Start QLabs**
      Make sure QLabs is open, and all previous real-time models are terminated.
-
-2.**Launch experiment**
+2.**you**
+     
+3.**Launch experiment**
   - First run Setup_Real_Senario.m
   - Then run A* planner to generate the full path, starting from fixing the starting node (TaxiHub) to predefined pickup and dropoff points 
   - Running Setup_Qcar2_Params.m to upload the different parameters needed for the navigation blocks, including the generated path from example_sdcs_path.m
