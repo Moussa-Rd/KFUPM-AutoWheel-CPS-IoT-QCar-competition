@@ -130,12 +130,6 @@ KFUPMAutoDrive-Simulation/
 
 ---
 
-## 🛠️ How to Run
-
-This section explains how to set up and run the full autonomous driving simulation using **MATLAB, Simulink, and Quanser QLabs**.
-
----
-
 ### 📋 Prerequisites
 
 Before running the project, make sure you have:
