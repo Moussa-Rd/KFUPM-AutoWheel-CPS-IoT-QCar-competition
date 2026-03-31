@@ -87,6 +87,10 @@ This makes it suitable for learning and experimenting with **real-time vision-ba
 
 ---
 
+![General Structure Snapshot](https://github.com/Moussa-Rd/KFUPM-AutoWheel-CPS-IoT-QCar-competition/blob/main/Struc.png)
+
+---
+
 ### 2. Control System
 
 The control system is composed of two main controllers responsible for vehicle motion: **Steering_Commander** and **Speed_Controller**.
