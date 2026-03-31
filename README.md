@@ -131,17 +131,42 @@ KFUPMAutoDrive-Simulation/
 ---
 
 ## 🛠️ How to Run
- 
-1. **Start QLabs**
 
-  - Make sure QLabs is open, and all previous real-time models are terminated.
-   
-2.**Launch experiment**
-  - First run example_sdcs_path.m by specifying the pickup node and dropoff node, this will return the full path saved in a 'sdcs_taxi_mission.mat' file.
-  - Running Setup_Qcar2_Params.m to upload the different parameters needed for the navigation blocks, including the generated path from example_sdcs_path.m
-  - After that,  run Setup_Real_Senario.m
-  - Finally running the main file VIRTUAL_self_driving stack_V2.slx
-    
+This section explains how to set up and run the full autonomous driving simulation using **MATLAB, Simulink, and Quanser QLabs**.
+
 ---
 
-**Ps:** For any further details, check the YouTube link At the top
+### 📋 Prerequisites
+
+Before running the project, make sure you have:
+
+- MATLAB & Simulink installed  
+- Quanser **QLabs** installed and working  
+- Required toolboxes (Simulink, Image Processing, etc.)  
+- All project files in the same working directory  
+
+---
+
+### 🚀 Step-by-Step Execution
+
+#### 1. Start QLabs
+- Open **Quanser QLabs**
+- Ensure:
+  - The environment is loaded properly  
+  - No previous real-time models are running  
+  - The simulation is idle and ready  
+
+---
+
+#### 2. Generate the Navigation Path
+- Run the following script 'example_sdcs_path.m'
+- Enter the pickup node
+- Enter the drop-off node
+- Run: 'Setup_Qcar2_Params.m'
+- After that, initialize the Simulation Scenario by running 'Setup_Real_Senario.m'
+- Finally run the Main Simulink Model 'VIRTUAL_self_driving_stack_V2.slx'
+
+
+
+
+**Ps:** For any further details, check the YouTube link at the top
