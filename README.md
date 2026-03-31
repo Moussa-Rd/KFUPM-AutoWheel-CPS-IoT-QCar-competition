@@ -68,9 +68,9 @@ This repository combines **intelligent object detection**, **dynamic vehicle con
 KFUPMAutoDrive-Simulation/
 
 ├── VIRTUAL_self_driving stack_V2.slx/    # For running the navigation 
-│── example_sdcs_path.m/         # For the A* planner  
-├── Setup_Qcar2_Params.m           # To upload the needed parameters for the SimLink file into the workspace
-├── Setup_Real_Senario.m             # For uploading the map 
+│── example_sdcs_path.m/                  # For the A* planner  
+├── Setup_Qcar2_Params.m                  # To upload the needed parameters for the SimLink file into the workspace
+├── Setup_Real_Senario.m                  # For uploading the map 
 └── README.md
 ```
 
