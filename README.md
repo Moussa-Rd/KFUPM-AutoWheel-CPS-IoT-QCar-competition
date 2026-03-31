@@ -2,7 +2,7 @@
 
 # [Youtube link for our Competition Submission – Stage 1]()
 
-![Simulation Snapshot](https://github.com/Moussa-Rd/KFUPM_AutoWheels-Stage-1/blob/b0e6da5982b8cf6432e9b7472f07b0c60544912b/KFUPM-AutoWheels.png)
+![Simulation Snapshot]([https://github.com/Moussa-Rd/KFUPM_AutoWheels-Stage-1/blob/b0e6da5982b8cf6432e9b7472f07b0c60544912b/KFUPM-AutoWheels.png](https://github.com/Moussa-Rd/KFUPM-AutoWheel-CPS-IoT-QCar-competition/blob/main/KFUPM-AutoWheels.png))
 
 
 ---
