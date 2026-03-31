@@ -11,11 +11,18 @@
 
 ## 👋 Overview
 
-Welcome to our Stage 1 submission for the **KFUPM Self-Driving Challenge**!
+Welcome to our **Stage 1 submission** for the **KFUPM Self-Driving Challenge**.
 
-As students from **King Fahd University of Petroleum and Minerals (KFUPM)**, we’ve built a complete autonomous vehicle simulation using the **QCar platform** in a realistic urban environment. Our focus was to combine strong engineering principles with real-time control, computer vision, and system integration. This solution meets all the evaluation criteria.
+We are a team from **King Fahd University of Petroleum and Minerals (KFUPM)**, and this project presents a complete autonomous driving simulation built on the **Quanser QCar platform** within a realistic urban environment. Our approach focuses on integrating solid engineering principles with **real-time control**, **computer vision**, and **system-level design**.
 
-This repository combines **intelligent object detection**, **dynamic vehicle control**, and a **custom competition environment** in Quanser's QLabs.
+The solution is designed to meet all competition evaluation criteria while demonstrating a reliable and modular autonomous driving pipeline.
+
+This repository brings together:
+- **Intelligent perception** through color-based object detection  
+- **Dynamic vehicle control** using tuned PD/PID controllers  
+- A **custom-designed competition environment** implemented in Quanser QLabs  
+
+The project showcases a cohesive system that combines perception, decision-making, and control for autonomous navigation in a simulated urban setting.
 
 --- 
 
@@ -46,7 +53,7 @@ This repository combines **intelligent object detection**, **dynamic vehicle con
 
 ## 🧠 Development Process
 
-### 1 Detection-based advanced Image processing:
+### 1. Detection-based advanced Image processing:
 
 We implement a **color-based object detection system in MATLAB Simulink** using **HSV thresholding** to detect traffic signs and traffic lights from an input RGB image.
 
