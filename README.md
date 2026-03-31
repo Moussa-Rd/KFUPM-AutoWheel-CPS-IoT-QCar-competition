@@ -82,6 +82,9 @@ Overall, this project demonstrates a simple and effective computer vision pipeli
 
 This makes it suitable for learning and experimenting with **real-time vision-based traffic scene analysis** in MATLAB/Simulink.
 
+![ImageProcessing Snapshot](https://github.com/Moussa-Rd/KFUPM-AutoWheel-CPS-IoT-QCar-competition/blob/main/ImageProcessing.png)
+
+
 ---
 
 ### 2. Control System
