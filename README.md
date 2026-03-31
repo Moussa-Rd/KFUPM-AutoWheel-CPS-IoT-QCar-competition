@@ -118,6 +118,10 @@ Additionally, the control system incorporates inputs from the **image processing
 
 Overall, the control system combines **low-level control (PD/PID)** with **high-level decision logic**, enabling the vehicle to follow paths, regulate speed, and respond intelligently to traffic conditions.
 
+
+
+![SpeedControl Snapshot](https://github.com/Moussa-Rd/KFUPM-AutoWheel-CPS-IoT-QCar-competition/blob/main/SpeedControl.jpg)
+
 ---
 
 
