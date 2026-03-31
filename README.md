@@ -47,7 +47,7 @@ This repository combines **intelligent object detection**, **dynamic vehicle con
 ## 🧠 Development Process
 
 ### 1. Object Detection
-- I
+- 
 
 ### 2. Control System
 - We have 2 main controllers, the first one 'Stearing_Commander.' It uses a PD controller and corrects the steering command, that weill be later used for the speed controller. Secondly, 'Speed_Controller', which is a PID controller. The parameters were tuned to get the best possible performance for the virtual stage.
@@ -78,7 +78,11 @@ KFUPMAutoDrive-Simulation/
   - Make sure QLabs is open, and all previous real-time models are terminated.
    
 2.**Launch experiment**
-  - First run example_sdcs_path.m by specifying the pickup node and dropoff node, this will return the full path saved in a .mat file format.
+  - First run example_sdcs_path.m by specifying the pickup node and dropoff node, this will return the full path saved in a 'sdcs_taxi_mission.mat' file.
   - Running Setup_Qcar2_Params.m to upload the different parameters needed for the navigation blocks, including the generated path from example_sdcs_path.m
   - After that,  run Setup_Real_Senario.m
-  - Finally running the main file VIRTUAL_self_driving stack_V2.slx 
+  - Finally running the main file VIRTUAL_self_driving stack_V2.slx
+    
+---
+
+**Ps:** For any further details, check the YouTube link At the top
