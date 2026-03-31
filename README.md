@@ -11,7 +11,7 @@
 
 ## 👋 Overview
 
-Welcome to our **Stage 1 submission** for the **KFUPM Self-Driving Challenge**.
+Welcome to our **Stage 1 submission** for the **KFUPM-AutoWheel CPS-IoT-QCar-competition**.
 
 We are a team from **King Fahd University of Petroleum and Minerals (KFUPM)**, and this project presents a complete autonomous driving simulation built on the **Quanser QCar platform** within a realistic urban environment. Our approach focuses on integrating solid engineering principles with **real-time control**, **computer vision**, and **system-level design**.
 
